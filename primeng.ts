@@ -21,6 +21,7 @@ export * from './components/editor/editor';
 export * from './components/fieldset/fieldset';
 export * from './components/fileupload/fileupload';
 export * from './components/galleria/galleria';
+export * from './components/multimedia-galleria/multimedia-galleria';
 export * from './components/gmap/gmap';
 export * from './components/growl/growl';
 export * from './components/inputmask/inputmask';
@@ -59,4 +60,3 @@ export * from './components/toolbar/toolbar';
 export * from './components/tooltip/tooltip';
 export * from './components/tree/tree';
 export * from './components/treetable/treetable';
-
