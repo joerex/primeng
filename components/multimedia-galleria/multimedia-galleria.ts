@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {DomHandler} from '../dom/domhandler';
 
 @Component({
-    selector: 'p-galleria',
+    selector: 'multimedia-galleria',
     template: `
         <div [ngClass]="{'ui-galleria ui-widget ui-widget-content ui-corner-all':true}" [ngStyle]="style" [class]="styleClass" [style.width.px]="panelWidth">
             <ul class="ui-galleria-panel-wrapper" [style.width.px]="panelWidth" [style.height.px]="panelHeight">
@@ -32,7 +32,7 @@ import {DomHandler} from '../dom/domhandler';
     `,
     providers: [DomHandler]
 })
-export class Galleria implements AfterViewChecked,AfterViewInit,OnDestroy {
+export class MultimediaGalleria implements AfterViewChecked,AfterViewInit,OnDestroy {
 
     @Input() media: any[];
 
